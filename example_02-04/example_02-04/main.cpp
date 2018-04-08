@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 		if( g_run != 0)
 		{
 			g_cap >> frame;
-			if( frame.empty()) return -1;
+			if( frame.empty()) return -1;	
 			int current_pos = (int)g_cap.get(CV_CAP_PROP_POS_FRAMES);
 			g_donset = 1;
 
