@@ -19,7 +19,7 @@ int main(int argc, char** argv)
 		idx[0] = size[0] * rand();
 		idx[1] = size[1] * rand();
 		sm.ref<float>( idx ) += 1.0f;
-	}
+	} 
 
 	cv::SparseMatConstIterator_<float> it = sm.begin<float>();
 	cv::SparseMatConstIterator_<float> it_end = sm.end<float>();
